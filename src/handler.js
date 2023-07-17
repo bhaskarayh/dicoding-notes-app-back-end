@@ -166,8 +166,8 @@ const deleteNoteByIdHandler = (request, h) => {
 
         const response = h.response({
             status: 'success',
-            message: 'Berhasil delete note'
-        })
+            message: 'Catatan berhasil dihapus'
+        });
 
         response.code(200);
         return response;
